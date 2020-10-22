@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+    background-color: white;
+    color: #20478B;
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}

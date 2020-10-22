@@ -1,0 +1,60 @@
+.starter-page {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card.card-home {
+  height: 250px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 25px;
+  box-shadow: 1px 1px 2px grey;
+}
+.card-home:hover {
+  box-shadow: 3px 3px 5px #20478B;
+  margin-right: 3px;
+  margin-left: -3px;
+  height: 247px;
+  transition: 0.2s;
+}
+
+.card.card-home > .card-content {
+  display: inline-block;
+}
+.card-content > p {
+  color: white;
+  line-height: 250px;
+  font-size: 30px;
+}
+
+.photo-card {
+  background-image: url('/assets/korentoweb.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  opacity: 0.85;
+}
+
+.coding-card {
+  background-image: url('/assets/IMG_20201016_214300.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  opacity: 0.85;
+}
+
+.photo-card:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.coding-card:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.contact-row{
+  margin-top: 5em;
+}
