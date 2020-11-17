@@ -1,0 +1,8 @@
+
+<div class="toast-container">
+  <div *ngFor="let toasterMessage of toaster.toasterMessages">
+    <div class="alert alert-{{toasterMessage.type}} float-right toast-message">
+      {{ toasterMessage.message }}
+    </div>
+  </div>
+</div>

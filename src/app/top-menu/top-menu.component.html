@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse {{navbarStatusClass}}" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li *ngFor="let item of navItems" class="nav-item">
-          <a class="nav-link" routerLink="{{item.destination}}">{{item.name}}</a>
+          <a class="nav-link" (click)="toggleMenu('close')" routerLink="{{item.destination}}">{{item.name}}</a>
         </li>
         <!--
             <li class="nav-item dropdown">
@@ -20,5 +20,6 @@
             </li>
         -->
       </ul>
+      <a routerLink="/login" (click)="toggleMenu('close')" class="btn btn-info"> Login </a>
     </div>
   </nav>

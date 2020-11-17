@@ -11,5 +11,10 @@ export class HomeComponent implements OnInit{
 
   }
 
+  // Go to external page
+  goTo(page){
+    window.open(page);
+  }
+
 }
 

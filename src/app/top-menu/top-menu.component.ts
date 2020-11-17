@@ -19,9 +19,14 @@ export class TopMenuComponent implements OnInit{
     ];
   }
 
-  toggleMenu(){
-    this.navigationOpen = !this.navigationOpen;
+  toggleMenu(param){
 
+    // IF param is close do not toggle
+    if(param == "close"){
+      this.navigationOpen = false;
+    } else {
+      this.navigationOpen = !this.navigationOpen;
+    }
     // If open
     if(this.navigationOpen)
     {

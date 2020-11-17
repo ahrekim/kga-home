@@ -1,5 +1,5 @@
 <div class="starter-page">
-  <h1>Contact</h1>
+  <h1>Login</h1>
   <div class="row contact-row">
     <div class="col-md-12">
       <div class="text-muted">
@@ -7,19 +7,19 @@
           <div class="row">
             <div class="col-md-12">
               <label for="">
-                Your email
+                Email
               </label>
-              <input formControlName="contact_email" type="text" class="form-control">
+              <input formControlName="email" type="text" class="form-control">
             </div>
             <div class="col-md-12">
               <label for="">
-                Message
+                Password
               </label>
-              <textarea formControlName="message" class="form-control" id="" cols="30" rows="10"></textarea>
+              <input formControlName="password" type="password" class="form-control">
             </div>
             <div class="col-md-12 mt-4">
               <button type="submit" class="btn btn-primary w-100" [disabled]="!form.valid">
-                Send
+                Login
               </button>
             </div>
           </div>
